@@ -1,0 +1,234 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+list-style: none;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    font-family: "Nunito", sans-serif;
+}
+#logo{
+    font-size: 36;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: #ffa500;
+}
+.navbar-toggler span{
+    color: #ffa500;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: .5s ease;
+}
+.nav-item .nav-link:hover{
+    background-color: #ffa500;
+    color: white;
+}
+#homing{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: .5s ease;
+}
+#homing:hover{
+    background-color: #ffa500;
+    color: white;
+}
+.navbar form button{
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    transition: .5s ease;
+}
+.navbar form button:hover{
+background-color: chocolate;
+color: #fff;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../img/pexels-michael-block-3225528.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home .content{
+    text-align: center;
+    padding: 200px;
+}
+.home .content h5{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow: 0 1px 1px black;
+}
+.home .content h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 0 1px 1px black;
+    margin-top: 5px;
+}
+.home .content p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0 1px 1px black;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.changes::after{
+    content: '';
+    color: #ffa500;
+    text-shadow: 0 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+0%{content: "France"}
+10%{content: "Spain"}
+20%{content: "United States"}
+0%{content: "China"}
+30%{content: "Bangladesh"}
+40%{content: "Dubai"}
+50%{content: "Mecca"}
+60%{content: "Turkey"}
+70%{content: "Rusia"}
+80%{content: "London"}
+90%{content: "Italy"}
+100%{content: "Germany"}
+}
+.home .content a{
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+}
+.home .content a:hover{
+    background-color: #ffa500;
+    color: #fff;
+}
+.booking{
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 0 1px 1px black;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.book{
+    background: #f9f9f9;
+    padding: 50px;
+}
+.book h3 span{
+color: #ffa500;
+}
+.book .submitbtn{
+background-color: #ffa500;
+padding: 10px 30px;
+color: #fff;
+border: none;
+border-radius: 5px;
+}
+.packages .packaging{
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 0 1px 1px black;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.packages h1 span{
+    color: #ffa500;
+}
+.rating{
+    color: #ffa500;
+    margin-bottom: 10px;
+}
+.servicing{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 0 1px 1px black;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.servicing span{
+    color: #ffa500;
+}
+.service{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../img/hotel.jpg);
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.galarry{
+    padding: 100px 0;
+    background: #efefef;
+}
+.gallery-box img{
+width: 100%;
+border-radius: 10px;
+cursor: pointer;
+transition: .5s;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: block;
+    font-size: 20px;
+}
+.gallery-box{
+    position: relative;
+        margin-bottom: 30px;}
+        .about-us{
+            align-items: center;
+        }
+        .footer{
+           text-align: center;
+           margin-top: 60px;
+        }
+        .footer{
+            background-image: url(../img/footer.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
